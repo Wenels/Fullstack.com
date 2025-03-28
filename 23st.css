@@ -1,0 +1,282 @@
+body {
+    background-image: url('bkg7.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; /* Change to no-repeat for better coverage */
+    background-attachment: fixed;
+    position: relative; /* Needed for overlay positioning */
+    height: 100vh; /* Ensure body has height */
+}
+
+
+h1{
+
+    color: rgb(0, 255, 153);
+}
+
+#testi{
+
+    color: rgb(204, 255, 0);
+}
+
+
+
+#pintro{
+
+    color: rgb(0, 34, 255);
+    font-size: 20px;
+}
+
+
+#hintro{
+    color: rgb(0, 4, 255);
+    
+}
+
+.text{
+    z-index: 2; /* Place text above the overlay */
+    position: relative; /* Position text relative to the overlay */
+}
+
+.list{
+
+    color: chartreuse;
+}
+
+#p2{
+
+
+    color: azure;
+    font-size: 20px;
+}
+
+#p3{
+
+    color: chartreuse;
+}
+.overlay {
+    position: absolute; /* Overlay positioned absolutely */
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 8300px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 20, 47, 0.804); /* Black overlay with 80% opacity */
+    z-index: 1; /* Ensure overlay is above the image */
+}
+
+
+
+#box{
+    border:1px solid;
+    border-radius: 10px;
+    width: 1820px;
+    height: 400px;
+    display: flex; /* Flexbox is applied here */ 
+    justify-content: center; /* This arranges the inner boxes horizontally with space between */
+    align-items: center; 
+    text-align: center;
+    background-color: aqua;
+}
+
+#box1{
+    border:1px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+
+
+#box1 img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+
+}
+#box2{
+    border:1px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+
+#box2 img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+
+}
+
+
+
+
+
+#box3{
+    border:1px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+
+
+#box3 img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+
+}
+
+
+
+#box4{
+    border:1px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+
+
+#box4 img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+
+}
+
+
+
+#outerbox{
+
+    border: 0px;
+    border-radius: 0px;
+    width: 1820px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#innerbox{
+    border:1px solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+
+
+
+#outerbox1{
+
+    border: 0px;
+    border-radius: 0px;
+    width: 1820px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#innerbox1{
+    border:1px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
+
+
+/*#head{
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+
+}*/
+
+
+#head{
+
+
+ color: #48ff00; /* Text color */
+ font-family: Arial, sans-serif; /* Font family */
+ font-size: 24px; /* Font size */
+ font-weight: bold; /* Font weight */
+ font-style: italic; /* Font style */
+ text-align: center; /* Text alignment */
+ line-height: 1.5; /* Line height */
+ text-decoration: underline; /* Text decoration */
+ text-transform: uppercase; /* Text transformation */
+ letter-spacing: 1px; /* Letter spacing */
+ word-spacing: 2px; /* Word spacing */
+ opacity: 0.9; /* Opacity */
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+
+
+
+
+
+
+
+

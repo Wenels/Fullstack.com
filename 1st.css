@@ -1,0 +1,40 @@
+body{
+    background-image:url("bkg5.jpg") ;
+    /*background-color: rgb(0, 20, 61);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: auto;
+}
+
+
+
+
+
+#outerbox1{
+
+    border: 0px;
+    border-radius: 0px;
+    width: 1820px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#innerbox1{
+    border:1px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 225, 255);
+}
